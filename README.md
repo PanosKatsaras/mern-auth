@@ -11,7 +11,7 @@ Admins and Managers are assigned their roles by providing special codes during r
 Default role for new users is Employee.
 
 # Token Management:
-Access Tokens: Short-lived tokens (30 minutes) used for API requests.
+Access Tokens: Short-lived tokens (15/30 minutes) used for API requests.
 Refresh Tokens: Long-lived tokens (7 days) used to refresh access tokens.
 Employee Management:
 Admins have full control over employee records (create, read, update, delete).
@@ -37,17 +37,26 @@ Nodemailer sends verification and reset emails.
 
 ## Frontend:
 React.js: Frontend library for building user interfaces.
+
 Vite: Development tool for fast builds and optimized performance.
+
 Axios: HTTP client for API communication.
+
 React Router Dom: For routing and navigation.
+
 React Toastify: For notifications.
 
 ## Backend:
 Node.js: Server-side JavaScript runtime.
+
 Express.js: Web framework for building APIs.
+
 Mongoose: ODM for MongoDB.
+
 JWT: Secure token-based authentication.
+
 Nodemailer: Email sending service.
+
 Bcrypt.js: For password hashing.
 
 ## Database:
