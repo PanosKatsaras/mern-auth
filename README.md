@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/22cf765c-cea5-430a-afd1-b8fc924da29d)
+
 # Project Overview
 This is a Full-Stack Authentication and Employee Management System built using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
 It offers secure user authentication, role-based registration and access, email-based account verification, and employee management features. 
