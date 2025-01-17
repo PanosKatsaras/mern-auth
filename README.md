@@ -1,3 +1,8 @@
+# Project Overview
+This is a Full-Stack Authentication and Employee Management System built using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
+It offers secure user authentication, role-based registration and access, email-based account verification, and employee management features. 
+The authentication system implements access and refresh tokens to ensure secure and long-lived sessions.
+
 ![Image](https://github.com/user-attachments/assets/22cf765c-cea5-430a-afd1-b8fc924da29d)
 
 ![Screenshot_auth2](https://github.com/user-attachments/assets/2ab135e1-f745-4334-92e1-86c66eb33a79)
@@ -7,11 +12,6 @@
 ![Screenshot_auth6](https://github.com/user-attachments/assets/86a4cc12-ddbf-4edb-b6bc-fbb1fbea75a8)
 
 ![Screenshot_auth7](https://github.com/user-attachments/assets/bc5caaca-1380-4023-86c5-0322e168fe11)
-
-# Project Overview
-This is a Full-Stack Authentication and Employee Management System built using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
-It offers secure user authentication, role-based registration and access, email-based account verification, and employee management features. 
-The authentication system implements access and refresh tokens to ensure secure and long-lived sessions.
 
 # Key Features
 Authentication and Role-Based Access Control:
