@@ -32,9 +32,9 @@ Enhances user experience with clear and concise messages for successes, warnings
 
 ![Screenshot (4002)](https://github.com/user-attachments/assets/5fcb5df6-49b0-4d81-a6fa-4371d1b41e1d)
 
-![Screenshot (3998)](https://github.com/user-attachments/assets/843d9e15-bfe4-4c66-a2aa-b64dab6cc175)
-
 ![Screenshot_auth2](https://github.com/user-attachments/assets/2ab135e1-f745-4334-92e1-86c66eb33a79)
+
+![Screenshot (3998)](https://github.com/user-attachments/assets/843d9e15-bfe4-4c66-a2aa-b64dab6cc175)
 
 ![Screenshot (4000)](https://github.com/user-attachments/assets/72d3dfbd-f776-455d-99dc-ebfc67d5c9c8)
 
