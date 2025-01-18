@@ -2,27 +2,27 @@
 
 ## Full-Stack MERN Application:
 
-1. Built using MongoDB, Express.js, React.js, and Node.js.
+Built using MongoDB, Express.js, React.js, and Node.js.
 Offers a scalable, high-performance architecture suitable for production-grade applications.
-Two-Factor Authentication (2FA):
 
-2. Secure user authentication using One-Time Passwords (OTP) delivered via email.
+### 1. Two-Factor Authentication (2FA):
+Secure user authentication using One-Time Passwords (OTP) delivered via email.
 Role-based registration and access, ensuring tailored user experiences based on roles.
-Secure Session Management:
 
-3. Utilizes access and refresh tokens to maintain secure, long-lived sessions.
+### 2. Secure Session Management:
+Utilizes access and refresh tokens to maintain secure, long-lived sessions.
 Tokens are managed securely, minimizing the risk of session hijacking.
-Email Verification:
 
-4. Account creation is validated through email-based verification.
+### 3. Email Verification:
+Account creation is validated through email-based verification.
 Ensures only legitimate users gain access to the system.
-Employee Management System:
 
-5. Comprehensive tools to manage employee data efficiently.
+### 4. Employee Management System:
+Comprehensive tools to manage employee data efficiently.
 Features may include adding, editing, deleting, and viewing employee details.
-User-Friendly Notifications:
 
-6. Integrated Toastify messaging to provide real-time feedback for user actions.
+### 5. User-Friendly Notifications:
+Integrated Toastify messaging to provide real-time feedback for user actions.
 Enhances user experience with clear and concise messages for successes, warnings, and errors.
 
 
