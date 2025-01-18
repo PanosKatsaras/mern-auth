@@ -34,10 +34,10 @@ Enhances user experience with clear and concise messages for successes, warnings
 
 ![Screenshot (4002)](https://github.com/user-attachments/assets/5fcb5df6-49b0-4d81-a6fa-4371d1b41e1d)
 
-
 ![Screenshot (4000)](https://github.com/user-attachments/assets/72d3dfbd-f776-455d-99dc-ebfc67d5c9c8)
 
-![Screenshot_auth6](https://github.com/user-attachments/assets/86a4cc12-ddbf-4edb-b6bc-fbb1fbea75a8)
+![Screenshot (3998)](https://github.com/user-attachments/assets/843d9e15-bfe4-4c66-a2aa-b64dab6cc175)
+
 
 
 # Key Features
