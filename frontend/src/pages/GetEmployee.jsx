@@ -40,7 +40,7 @@ const GetEmployee = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-violet-100 to-violet-200 min-h-screen flex flex-col">
+    <div className="bg-gradient-to-b from-white to-violet-200 min-h-screen flex flex-col">
       {/* Header Section */}
       <div className="sticky top-0 w-full bg-[#FFCA5C] border-b-2 border-gray-700 shadow-lg">
         <div className="flex flex-row justify-between items-center sm:px-24">

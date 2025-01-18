@@ -76,7 +76,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex items-center w-full justify-center min-h-screen sm:px-24 bg-gradient-to-b from-violet-100 to-violet-200">
+    <div className="flex items-center w-full justify-center min-h-screen sm:px-24 bg-gradient-to-b from-white to-violet-200">
       {/* Header Section */}
       <div className="absolute top-0 w-full bg-[#FFCA5C] border-b-2 border-gray-700 shadow-lg">
         <div className="flex flex-row justify-between items-center sm:px-24">

@@ -118,7 +118,7 @@ const GetEmployees = () => {
   );
 
   return (
-    <div className="bg-gradient-to-b from-violet-100 to-violet-200 min-h-screen flex flex-col">
+    <div className="bg-gradient-to-b from-white to-violet-200 min-h-screen flex flex-col">
       {/* Header Section */}
       <div className="sticky top-0 w-full bg-[#FFCA5C] border-b-2 border-gray-700 shadow-lg">
         <div className="flex flex-row justify-between items-center sm:px-24">
@@ -202,7 +202,7 @@ const GetEmployees = () => {
                 <select
                   value={rowsPerPage}
                   onChange={handleRowsPerPageChange}
-                  className="ml-2 p-2 rounded-md border bg-slate-800 text-violet-400"
+                  className="ml-2 p-2 rounded-md border bg-slate-800 text-slate-100"
                 >
                   <option value={5}>5</option>
                   <option value={10}>10</option>
@@ -213,7 +213,7 @@ const GetEmployees = () => {
                 <button
                   disabled={currentPage === 1}
                   onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
-                  className="px-3 py-1 rounded-lg bg-slate-700 hover:bg-slate-800 text-violet-400 disabled:opacity-50"
+                  className="px-3 py-1 rounded-lg bg-slate-700 hover:bg-slate-800 text-slate-100 disabled:opacity-50"
                 >
                   Previous
                 </button>
@@ -223,7 +223,7 @@ const GetEmployees = () => {
                 <button
                   disabled={currentPage === totalPages}
                   onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
-                  className="px-3 py-1 rounded-lg bg-slate-700 hover:bg-slate-800 text-violet-400 disabled:opacity-50"
+                  className="px-3 py-1 rounded-lg bg-slate-700 hover:bg-slate-800 text-slate-100 disabled:opacity-50"
                 >
                   Next
                 </button>
