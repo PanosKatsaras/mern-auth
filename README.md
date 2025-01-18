@@ -34,6 +34,8 @@ Enhances user experience with clear and concise messages for successes, warnings
 
 ![Screenshot_auth3](https://github.com/user-attachments/assets/6255cb77-ccf2-4696-af9c-3f33c133a0b0)
 
+![Screenshot (4000)](https://github.com/user-attachments/assets/72d3dfbd-f776-455d-99dc-ebfc67d5c9c8)
+
 ![Screenshot_auth6](https://github.com/user-attachments/assets/86a4cc12-ddbf-4edb-b6bc-fbb1fbea75a8)
 
 ![Screenshot_auth7](https://github.com/user-attachments/assets/bc5caaca-1380-4023-86c5-0322e168fe11)
