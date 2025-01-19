@@ -2,8 +2,8 @@
 
 ## Full-Stack MERN Application:
 
-Built using MongoDB, Express.js, React.js, and Node.js.
-Offers a scalable, high-performance architecture suitable for production-grade applications.
+Built with MongoDB, Express.js, React.js, and Node.js, this application is a production-grade, scalable solution designed for high performance and security. 
+The system integrates modern web development practices, ensuring seamless functionality and an engaging user experience, enhanced further by Tailwind CSS for responsive and stylish UI components.
 
 ### 1. Two-Factor Authentication (2FA):
 Secure user authentication using One-Time Passwords (OTP) delivered via email.
