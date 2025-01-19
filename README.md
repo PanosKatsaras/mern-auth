@@ -25,6 +25,9 @@ Features may include adding, editing, deleting, and viewing employee details.
 Integrated Toastify messaging to provide real-time feedback for user actions.
 Enhances user experience with clear and concise messages for successes, warnings, and errors.
 
+### 6. Tailwind CSS Integration
+This application utilizes Tailwind CSS to create a responsive and visually appealing user interface.
+
 
 # Screenshots:
 
