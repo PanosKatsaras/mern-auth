@@ -4,6 +4,8 @@ import { toast } from 'react-toastify';
 import axios from 'axios';
 import { AppContext } from '../context/AppContext';
 import { assets } from '../assets/assets';
+import background1 from '../assets/background1.jpg';
+
 
 const CreateEmployee = () => {
   const navigate = useNavigate();
@@ -46,7 +48,12 @@ const CreateEmployee = () => {
   };
 
   return (
-    <div className="flex items-center w-full justify-center min-h-screen sm:px-24 bg-gradient-to-b from-white to-violet-200">
+    <div className="flex items-center w-full justify-center min-h-screen sm:px-24">
+      {/* Blur effect on the background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center before:absolute before:inset-0 before:bg-gradient-to-b before:from-white before:to-violet-300 before:opacity-90"
+        style={{ backgroundImage: `url(${background1})` }}>
+      </div>
       {/* Header Section */}
       <div className="absolute top-0 w-full bg-[#FFCA5C] border-b-2 border-gray-700 shadow-lg">
         <div className="flex flex-row justify-between items-center sm:px-24">
@@ -63,7 +70,7 @@ const CreateEmployee = () => {
       </div>
 
       {/* Form Section */}
-      <div className="bg-slate-800 p-10 rounded-lg shadow-lg w-full sm:w-[40rem] mt-24">
+      <div className="relative z-10 bg-slate-800 p-10 rounded-lg shadow-lg w-full sm:w-[40rem] mt-24">
         <h2 className="text-center font-semibold text-violet-300 mb-5 text-2xl">
           Create Employee
         </h2>

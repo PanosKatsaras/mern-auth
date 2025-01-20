@@ -4,6 +4,8 @@ import { assets } from '../assets/assets'
 import { AppContext } from '../context/AppContext'
 import axios from 'axios'
 import { toast } from 'react-toastify'
+import background1 from '../assets/background1.jpg';
+
 
 const ResetPassword = () => {
 
@@ -70,7 +72,12 @@ const ResetPassword = () => {
   }
 
   return (
-    <div className="flex items-center w-full justify-center min-h-screen sm:px-24 bg-gradient-to-b from-white to-violet-200">
+    <div className="flex items-center w-full justify-center min-h-screen sm:px-24">
+      {/* Blur effect on the background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center before:absolute before:inset-0 before:bg-gradient-to-b before:from-white before:to-violet-300 before:opacity-90"
+        style={{ backgroundImage: `url(${background1})` }}>
+      </div>
       {/* Header Section */}
       <div className="absolute top-0 w-full bg-[#FFCA5C] border-b-2 border-gray-700 shadow-lg">
         <div className="flex flex-row justify-between items-center sm:px-24">
@@ -88,7 +95,7 @@ const ResetPassword = () => {
       </div>
 
       {!emailSent &&
-        <form onSubmit={submitEmail} className="flex flex-col items-center justify-center w-full max-w-sm p-6 bg-slate-800 shadow-md rounded-lg">
+        <form onSubmit={submitEmail} className="relative z-10 flex flex-col items-center justify-center w-full max-w-sm p-6 bg-slate-800 shadow-md rounded-lg">
           <h2 className="text-2xl font-semibold text-violet-300 mb-4">Reset Password</h2>
           <p className="text-sm text-violet-200 mb-6">
             Please enter your registered email address
@@ -108,7 +115,7 @@ const ResetPassword = () => {
       }
 
       {!otpSubmited && emailSent &&
-        <form onSubmit={submitOTP} className="flex flex-col items-center justify-center w-full max-w-sm p-6 bg-slate-800 shadow-md rounded-lg">
+        <form onSubmit={submitOTP} className="relative z-10 flex flex-col items-center justify-center w-full max-w-sm p-6 bg-slate-800 shadow-md rounded-lg">
           <h2 className="text-2xl font-semibold text-violet-300 mb-4">Reset Password OTP</h2>
           <p className="text-sm text-violet-200 mb-6">
             Please enter the 6-digit code sent to your email
@@ -142,7 +149,7 @@ const ResetPassword = () => {
       }
 
       {otpSubmited && emailSent &&
-        <form onSubmit={submitNewPassword} className="flex flex-col items-center justify-center w-full max-w-sm p-6 bg-slate-800 shadow-md rounded-lg">
+        <form onSubmit={submitNewPassword} className="relative z-10 flex flex-col items-center justify-center w-full max-w-sm p-6 bg-slate-800 shadow-md rounded-lg">
           <h2 className="text-2xl font-semibold text-violet-300 mb-4">New Password</h2>
           <p className="text-sm text-violet-200 mb-6">
             Please enter the new password bellow
