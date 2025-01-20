@@ -39,9 +39,7 @@ This application utilizes Tailwind CSS to create a responsive and visually appea
 
 ![Screenshot (4013)](https://github.com/user-attachments/assets/fd2b1db5-8593-450b-bf6a-ef6bd0fc6877)
 
-![Screenshot (4000)](https://github.com/user-attachments/assets/72d3dfbd-f776-455d-99dc-ebfc67d5c9c8)
-
-
+![Screenshot (4004)](https://github.com/user-attachments/assets/08ffbe66-6dba-4a97-86f6-b97266ed3baa)
 
 
 # Key Features
