@@ -1,19 +1,48 @@
 # Project Overview
-This is a Full-Stack, Two-Factor Authentication System with OTP and Employee Management System built using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
-It offers secure user authentication, role-based registration and access, email-based account verification, and employee management features. 
-The authentication system implements access and refresh tokens to ensure secure and long-lived sessions.
+
+## Full-Stack MERN Application:
+
+Built with MongoDB, Express.js, React.js, and Node.js, this application is a production-grade, scalable solution designed for high performance and security. 
+The system integrates modern web development practices, ensuring seamless functionality and an engaging user experience, enhanced further by Tailwind CSS for responsive and stylish UI components.
+
+### 1. Two-Factor Authentication (2FA):
+Secure user authentication using One-Time Passwords (OTP) delivered via email.
+Role-based registration and access, ensuring tailored user experiences based on roles.
+
+### 2. Secure Session Management:
+Utilizes access and refresh tokens to maintain secure, long-lived sessions.
+Tokens are managed securely, minimizing the risk of session hijacking.
+
+### 3. Email Verification:
+Account creation is validated through email-based verification.
+Ensures only legitimate users gain access to the system.
+
+### 4. Employee Management System:
+Comprehensive tools to manage employee data efficiently.
+Features may include adding, editing, deleting, and viewing employee details.
+
+### 5. User-Friendly Notifications:
+Integrated Toastify messaging to provide real-time feedback for user actions.
+Enhances user experience with clear and concise messages for successes, warnings, and errors.
+
+### 6. Tailwind CSS Integration
+This application utilizes Tailwind CSS to create a responsive and visually appealing user interface.
+
 
 # Screenshots:
 
 ![Image](https://github.com/user-attachments/assets/22cf765c-cea5-430a-afd1-b8fc924da29d)
 
+![Screenshot (4008)](https://github.com/user-attachments/assets/414c7e5f-1e21-4e17-b662-dcef9616448c)
+
 ![Screenshot_auth2](https://github.com/user-attachments/assets/2ab135e1-f745-4334-92e1-86c66eb33a79)
 
-![Screenshot_auth3](https://github.com/user-attachments/assets/6255cb77-ccf2-4696-af9c-3f33c133a0b0)
+![Screenshot (4013)](https://github.com/user-attachments/assets/fd2b1db5-8593-450b-bf6a-ef6bd0fc6877)
 
-![Screenshot_auth6](https://github.com/user-attachments/assets/86a4cc12-ddbf-4edb-b6bc-fbb1fbea75a8)
+![Screenshot (4009)](https://github.com/user-attachments/assets/a2e46dec-7b2c-4cd1-8496-1db7ab3a7845)
 
-![Screenshot_auth7](https://github.com/user-attachments/assets/bc5caaca-1380-4023-86c5-0322e168fe11)
+![Screenshot (4004)](https://github.com/user-attachments/assets/08ffbe66-6dba-4a97-86f6-b97266ed3baa)
+
 
 # Key Features
 Authentication and Role-Based Access Control:
