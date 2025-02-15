@@ -4,8 +4,7 @@ import { assets } from '../assets/assets'
 import { AppContext } from '../context/AppContext'
 import axios from 'axios'
 import { toast } from 'react-toastify'
-import background1 from '../assets/background1.jpg';
-
+import white_wall from '../assets/white_wall.jpg';
 
 const ResetPassword = () => {
 
@@ -76,7 +75,7 @@ const ResetPassword = () => {
       {/* Blur effect on the background */}
       <div
         className="absolute inset-0 bg-cover bg-center before:absolute before:inset-0 before:bg-gradient-to-b before:from-white before:to-violet-300 before:opacity-90"
-        style={{ backgroundImage: `url(${background1})` }}>
+        style={{ backgroundImage: `url(${white_wall})` }}>
       </div>
       {/* Header Section */}
       <div className="absolute top-0 w-full bg-[#FFCA5C] border-b-2 border-gray-700 shadow-lg">

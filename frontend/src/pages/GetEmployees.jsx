@@ -5,7 +5,7 @@ import { AppContext } from '../context/AppContext';
 import { useContext } from 'react';
 import { assets } from '../assets/assets';
 import { useNavigate } from 'react-router-dom';
-import background1 from '../assets/background1.jpg';
+import white_wall from '../assets/white_wall.jpg';
 
 const GetEmployees = () => {
   const [employees, setEmployees] = useState([]);
@@ -123,7 +123,7 @@ const GetEmployees = () => {
       {/* Blur effect on the background */}
       <div
         className="absolute inset-0 bg-cover bg-center before:absolute before:inset-0 before:bg-gradient-to-b before:from-white before:to-violet-300 before:opacity-90"
-        style={{ backgroundImage: `url(${background1})` }}>
+        style={{ backgroundImage: `url(${white_wall})` }}>
       </div>
       {/* Header Section */}
       <div className="sticky top-0 w-full bg-[#FFCA5C] border-b-2 border-gray-700 shadow-lg">
@@ -241,7 +241,7 @@ const GetEmployees = () => {
 
       {/* Modal for Editing Employee */}
       {isModalOpen && selectedEmployee && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-slate-800 p-6 rounded-lg shadow-lg w-[90%] sm:w-[30rem]">
             <h3 className="flex justify-center text-xl font-semibold text-violet-300 mb-4">Edit Employee</h3>
             <form onSubmit={handleUpdateSubmit}>
@@ -334,7 +334,7 @@ const GetEmployees = () => {
 
       {/* Delete Confirmation Modal */}
       {isDeleteModalOpen && employeeToDelete && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-slate-800 p-6 rounded-lg shadow-lg w-[90%] sm:w-[30rem]">
             <h3 className="text-xl font-semibold text-yellow-300 text-center mb-4">Are you sure you want to delete this employee?</h3>
             <div className="flex justify-center">
