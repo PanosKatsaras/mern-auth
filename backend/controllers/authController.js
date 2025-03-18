@@ -8,11 +8,11 @@ import { EMAIL_VERIFY_TEMPLATE, PASSWORD_RESET_TEMPLATE } from '../../frontend/s
  * Helper functions to create access and refresh tokens
  */
 const createAccessToken = (userId) => {
-    return jwt.sign({ id: userId }, process.env.JWT_SECRET, { expiresIn: '30m' });
+    return jwt.sign({ id: userId }, process.env.JWT_SECRET, { expiresIn: '10m' });
 };
 
 const createRefreshToken = (userId) => {
-    return jwt.sign({ id: userId }, process.env.JWT_REFRESH_SECRET, { expiresIn: '7d' });
+    return jwt.sign({ id: userId }, process.env.JWT_REFRESH_SECRET, { expiresIn: '1d' });
 };
 
 /**
@@ -77,7 +77,7 @@ export const register = async (req, res) => {
             httpOnly: true,
             secure: process.env.NODE_ENV === "production",
             sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
-            maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+            maxAge: 24 * 60 * 60 * 1000, // 1 day
         });
 
         // Send a welcome email
@@ -147,7 +147,7 @@ export const login = async (req, res) => {
             httpOnly: true,
             secure: process.env.NODE_ENV === "production",
             sameSite: process.env.NODE_ENV === "production" ? "none" : "strict",
-            maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+            maxAge: 24 * 60 * 60 * 1000, // 1 day
         });
 
         return res.json({ success: true, message: "Login successful", accessToken });
@@ -256,7 +256,7 @@ export const sendResetOtp = async (req, res) => {
         const otp = Math.floor(100000 + Math.random() * 900000);
 
         user.resetOtp = otp;
-        user.resetOtpExpireAt = Date.now() + 15 * 60 * 1000;
+        user.resetOtpExpireAt = Date.now() + 5 * 60 * 1000; // 5 minutes
         await user.save();
 
         const emailTemplate = PASSWORD_RESET_TEMPLATE
@@ -315,7 +315,7 @@ export const sendVerifyOtp = async (req, res) => {
 
         const otp = Math.floor(100000 + Math.random() * 900000);
         user.verifyOtp = otp;
-        user.verifyOtpExpireAt = Date.now() + 24 * 60 * 60 * 1000;
+        user.verifyOtpExpireAt = Date.now() + 5 * 60 * 1000; // 5 minutes
         await user.save();
 
         const emailTemplate = EMAIL_VERIFY_TEMPLATE
