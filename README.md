@@ -56,8 +56,8 @@ Admins and Managers are assigned their roles by providing special codes during r
 Default role for new users is Employee.
 
 # Token Management:
-Access Tokens: Short-lived tokens (15/30 minutes) used for API requests.
-Refresh Tokens: Long-lived tokens (7 days) used to refresh access tokens.
+Access Tokens: Short-lived tokens (10 minutes) used for API requests.
+Refresh Tokens: Long-lived tokens (1 day) used to refresh access tokens.
 Employee Management:
 Admins have full control over employee records (create, read, update, delete).
 Managers can edit and view employee records.
