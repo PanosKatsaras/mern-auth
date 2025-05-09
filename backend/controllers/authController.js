@@ -270,7 +270,7 @@ export const sendResetOtp = async (req, res) => {
             // html: `
             // <p>Hi <strong>${user.name}</strong>,</p>
             // <p>Your OTP for resetting your password is: <strong>${otp}</strong></p>
-            // <p><strong>Note:</strong> This OTP is valid for <strong>15 minutes</strong>. Please use it before it expires.</p>
+            // <p><strong>Note:</strong> This OTP is valid for <strong>5 minutes</strong>. Please use it before it expires.</p>
             // <p>If you did not request to reset your password, please ignore this email or contact support immediately.</p>
             // <br>
             // <p>Best regards,</p>
@@ -329,7 +329,7 @@ export const sendVerifyOtp = async (req, res) => {
             // html: `
             // <p>Dear ${user.name},</p>
             // <p>Your OTP for account verification is <strong>${otp}</strong>.</p>
-            // <p><strong>Note:</strong> This OTP is valid for 24 hours. 
+            // <p><strong>Note:</strong> This OTP is valid for 5 minutes. 
             // Please use it promptly to verify your account.</p>
             // <p>If you did not request this, please ignore this email.</p>
             // <br>
